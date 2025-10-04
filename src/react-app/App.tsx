@@ -52,7 +52,7 @@ function App() {
           }}
           aria-label="get name"
         >
-          Name from API is: {name}
+          Name from another API is: {name}
         </button>
         <p>
           Edit <code>worker/index.ts</code> to change the name
