@@ -15,6 +15,7 @@ import {
   Linkedin,
   Github,
 } from "lucide-react";
+import NetworkDiagram from "./components/NetworkDiagram";
 import "./App.css";
 
 function App() {
@@ -202,22 +203,7 @@ function App() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.4, duration: 1 }}
           >
-            <div className="floating-card card-1">
-              <Sparkles className="card-icon" />
-              <span>Generative AI</span>
-            </div>
-            <div className="floating-card card-2">
-              <Brain className="card-icon" />
-              <span>ML Models</span>
-            </div>
-            <div className="floating-card card-3">
-              <Network className="card-icon" />
-              <span>Knowledge Graphs</span>
-            </div>
-            <div className="floating-card card-4">
-              <Server className="card-icon" />
-              <span>Serverless</span>
-            </div>
+            <NetworkDiagram />
           </motion.div>
         </div>
       </section>
