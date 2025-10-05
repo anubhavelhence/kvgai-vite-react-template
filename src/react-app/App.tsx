@@ -30,7 +30,7 @@ function App() {
   const services = [
     {
       icon: <Sparkles className="w-8 h-8" />,
-      title: "Generative AI Application Development",
+      title: "Generative AI Applicationnn Development",
       description:
         "Enhance your products, solutions and processes with cutting edge Generative AI integrations",
     },
